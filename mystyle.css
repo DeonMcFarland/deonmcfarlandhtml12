@@ -17,9 +17,10 @@ h3{
 a:link {
     color: rgb(250, 14, 14);
 }
+a:hover{
+    color: black;
+}
+
 p{
     color: royalblue;
-}
-:hover{
-    color: black;
 }
