@@ -1,9 +1,10 @@
 body{
     color: rgb(9, 9, 9);
+    background-color: lightsteelblue;
     width: fit-content;
 }
 h2{
-    background-color: rgb(234, 228, 228);
+    background-color: rgb(255, 254, 254);
     color: rgb(2, 8, 0);
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
@@ -22,5 +23,5 @@ a:hover{
 }
 
 p{
-    color: royalblue;
+    color: rgb(12, 12, 12);
 }
