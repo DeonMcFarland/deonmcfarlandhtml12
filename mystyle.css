@@ -1,7 +1,9 @@
 body{
     color: rgb(9, 9, 9);
     background-color: lightsteelblue;
-    width: fit-content;
+    scrollbar: width 10px; 
+
+        font-size:1.25em
 }
 h2{
     background-color: rgb(255, 254, 254);
@@ -28,4 +30,16 @@ tag.class
 p.intro {  
     font-style: italic; 
  }
+ol li{
+    margin-bottom: 0.2em;
+    border-top-style: groove;
+}
+<float><img id="DSC00817">
+image
+
+div.nav{
+    font-size: 1.25em;
+    text-algin:center;
+    background-color: blue;
+
 
