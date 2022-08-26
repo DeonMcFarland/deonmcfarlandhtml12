@@ -25,21 +25,25 @@ a:hover{
 p strong{
     color:black
 }
-<p class="intro">
-tag.class
-p.intro {  
-    font-style: italic; 
- }
-ol li{
-    margin-bottom: 0.2em;
-    border-top-style: groove;
-}
-<float><img id="DSC00817">
-image
 
-div.nav{
-    font-size: 1.25em;
-    text-algin:center;
-    background-color: blue;
+div#favoriteteams{
+    width: 100%;
+    text-align: center;
+    border: 2px dotted black;
+}
+div.favorite{
+    width: 20%;
+    margin-right: 5px;
+    border: 1px dotted red;   
+}
+div#favorite{
+    display: flex;
+    width: 90;
+    flex-direction: row;
+    border: 2px solid red;
+}
+
+
+
 
 
