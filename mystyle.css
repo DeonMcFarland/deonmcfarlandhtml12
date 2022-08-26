@@ -8,20 +8,24 @@ h2{
     color: rgb(2, 8, 0);
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
-    
-
 }
 h3{
     color: rgb(4, 1, 0);
     font-size: large;
 }
 a:link {
-    color: rgb(250, 14, 14);
+    color: rgb(14, 38, 250);
 }
 a:hover{
     color: black;
 }
 
-p{
-    color: rgb(12, 12, 12);
+p strong{
+    color:black
 }
+<p class="intro">
+tag.class
+p.intro {  
+    font-style: italic; 
+ }
+
