@@ -1,60 +1,78 @@
-body{
+body {
     color: rgb(9, 9, 9);
     background-color: lightsteelblue;
 
-        font-size:1.25em
+    font-size: 1.25em
 }
-h2{
+
+h2 {
     background-color: rgb(255, 254, 254);
     color: rgb(2, 8, 0);
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
 }
-h3{
+
+h3 {
     color: rgb(4, 1, 0);
     font-size: large;
 }
+
 a:link {
     color: rgb(14, 38, 250);
 }
-a:hover{
+
+a:hover {
     color: black;
 }
 
-p strong{
-    color:black
+p strong {
+    color: black
 }
 
-div#favoriteteams{
+div#favoriteteams {
     width: 100%;
     text-align: center;
     border: 2px dotted black;
     background-color: aliceblue;
+
+
 }
-div.favorite{
+
+div.favorite {
     width: 30%;
     margin-right: 75px;
     background-color: ghostwhite;
+     text-align: center;
 }
-div#favorite{
+
+div#favorite {
     display: flex;
-    width: 90;
-    text-align: center;
-    }
-a:hover div#favorite{
-        color: blue;
-    }
-div#mylinks{
+    width: 70%;
+    justify-content: space-around;
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    background-color: coral;
+   
+}
+
+a:hover div#favorite {
+    color: blue;
+}
+
+div#mylinks {
     text-align: center;
     border: 2px dotted rebeccapurple;
     width: fit-content;
     background-color: coral;
 }
-div.mylinks{
+
+div.mylinks {
     width: 20%;
     margin-bottom: 70px;
 }
-div#mylinks{
+
+div#mylinks {
     display: flex;
     flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,7 +80,3 @@ div#mylinks{
     justify-content: space-between;
 
 }
-
-
-
-
