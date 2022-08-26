@@ -30,19 +30,39 @@ div#favoriteteams{
     width: 100%;
     text-align: center;
     border: 2px dotted black;
+    background-color: aliceblue;
 }
 div.favorite{
-    width: 20%;
-    margin-right: 5px;
-    border: 1px dotted red;   
+    width: 30%;
+    margin-right: 75px;
+    background-color: ghostwhite;
 }
 div#favorite{
     display: flex;
     width: 90;
-    flex-direction: row;
-    border: 2px solid red;
+    text-align: center;
+    }
+a:hover div#favorite{
+        color: blue;
+    }
+div#mylinks{
+    text-align: center;
+    border: 2px dotted rebeccapurple;
+    width: fit-content;
+    background-color: coral;
 }
+div.mylinks{
+    width: 20%;
+    margin-bottom: 70px;
+}
+div#mylinks{
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    justify-content: space-between;
 
+}
 
 
 
