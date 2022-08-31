@@ -76,7 +76,7 @@ div.mylinks {
 
 div#mylinks {
     display: flex;
-   top: 11em; 
+   top: 30em; 
    flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
@@ -91,4 +91,9 @@ div#duke {
 }
 img#dukeimage {
     width: 50%;
+    float: inline-end;
+}
+
+ol li {
+    margin-bottom: 0.5em;
 }
