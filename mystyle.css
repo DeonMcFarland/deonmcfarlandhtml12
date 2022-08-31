@@ -2,7 +2,7 @@ body {
     color: rgb(9, 9, 9);
     background-color: lightsteelblue;
 
-    font-size: 1.25em
+    font-size: 1.25em;
 }
 
 h2 {
@@ -26,41 +26,38 @@ a:hover {
 }
 
 p strong {
-    color: black
+    color: black;
 }
 
-div#favoriteteams {
-    width: 100%;
-    text-align: center;
-    border: 2px dotted black;
-    background-color: aliceblue;
 
-
-}
 
 div.favorite {
     width: 30%;
     margin-right: 75px;
     background-color: ghostwhite;
      text-align: center;
+    
 }
 
 div#favorite {
     display: flex;
-    top: 10em;
+    top: 8em;
     width: 70%;
-    justify-content: space-around;
+    justify-content:center;
     position: fixed;
     right: 0%;
-    top: 0%;
-    bottom:;
-    background-color: coral;
-   
+
 }
 
 a:hover div#favorite {
     color: blue;
 }
+
+
+
+
+
+
 
 div#mylinks {
     text-align: center;
@@ -95,5 +92,5 @@ img#dukeimage {
 }
 
 ol li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1.25em;
 }
