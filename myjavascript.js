@@ -14,3 +14,11 @@ function onClick() {
     function onButtonClick() {  
         otheritem.style.color = "yellow";  
     }
+
+    textentry = document.getElementById("myinput");  
+textentry.addEventListener("change", onChange);
+
+function onChange() {  
+    newtext = myinput.value;  
+    otheritem.innerHTML = newtext;  
+}
