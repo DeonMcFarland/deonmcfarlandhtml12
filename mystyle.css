@@ -47,11 +47,13 @@ div.favorite {
 
 div#favorite {
     display: flex;
+    top: 10em;
     width: 70%;
     justify-content: space-around;
     position: fixed;
     right: 0%;
     top: 0%;
+    bottom:;
     background-color: coral;
    
 }
@@ -74,9 +76,19 @@ div.mylinks {
 
 div#mylinks {
     display: flex;
-    flex-direction: column;
+   top: 11em; 
+   flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
     justify-content: space-between;
+    
+}
 
+div#duke {
+    position: fixed;
+    top: 12em;
+    text-align: center;
+}
+img#dukeimage {
+    width: 50%;
 }
