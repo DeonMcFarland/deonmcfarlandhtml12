@@ -126,6 +126,22 @@ div.nav:hover div.dropdownitem a {
     display: block;
 }
 
+img#bowl{
+    width: 20%;
+    top: 6%;
+    position: fixed;
+}
+
+div#movie {
+    display: block;
+}
+
+img#minions{
+    position: fixed;
+    top: 25%;
+    width: 20%;
+}
+
 @media (max-width : 750px) {
     body {
         margin-left: 3%;
@@ -166,20 +182,10 @@ div.nav:hover div.dropdownitem a {
     }
 }
 
-img#soup{
-    width: 20%;
-    top: 6%;
-    position: fixed;
-}
 
-img#soup1{
-    position: fixed;
-    top: 25%;
-    width: 20%;
-}
 
-div#largeview{
+/* div#largeview{
     position: fixed;
     top: 100%;
     left: 200px;
-}
+} */
