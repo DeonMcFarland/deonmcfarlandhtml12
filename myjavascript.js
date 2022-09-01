@@ -3,9 +3,10 @@ myitem = document.getElementById("firsttest");
     myitem.addEventListener("click", onClick);
     myitem.style.fontsize="36px";
 myitem.style.color= "blue";
-thebutton = document.getElementById("thebutton");  
-otheritem = document.getElementById("buttontest");
+thebutton = document.getElementById("thebutton"); 
 thebutton.addEventListener("click", onButtonClick);
+otheritem = document.getElementById("buttontest");  
+
 
 
 function onClick() {  
