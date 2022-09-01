@@ -144,10 +144,19 @@ h2 {
     }
 }
 @media screen and (orientation: landscape) {
-    body {
-        background-color: goldenrod;
-    }
+    body[
+        margin-top: ::backdrop; 
+    ]
+   
 } 
+
+@media screen and (orientation:portrait) {
+    body {
+    border: rgb(14, 38, 250); 
+    }
+    
+}
+
 @media (min-width: 389) and (max-width: 391) and
 (min-height: 843) and (max-height: 845) {
     body{
