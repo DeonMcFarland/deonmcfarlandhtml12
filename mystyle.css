@@ -124,3 +124,33 @@ div.nav div.dropdownitem a{
 div.nav:hover div.dropdownitem a{
     display: block;
 }
+
+@media (max-width : 750px) {
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+h2 {
+    width: 60%;
+    font-size: 115%;
+}
+}
+@media (min-width: 750px) {
+    ol li.float {
+        float: left;
+        width: 30px;
+        background-color: aqua;
+        margin-right: 2em;
+    }
+}
+@media screen and (orientation: landscape) {
+    body {
+        background-color: goldenrod;
+    }
+} 
+@media (min-width: 389) and (max-width: 391) and
+(min-height: 843) and (max-height: 845) {
+    body{
+        display: none;
+    }
+}
