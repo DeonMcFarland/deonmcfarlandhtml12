@@ -148,9 +148,9 @@ div.nav:hover div.dropdownitem a {
 }
 
 @media screen and (orientation:landscape) {
-    body[ 
+    body{
         margin:after;
-    ]
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -165,3 +165,20 @@ div.nav:hover div.dropdownitem a {
     }
 }
 
+img#soup{
+    width: 20%;
+    top: 6%;
+    position: fixed;
+}
+
+img#soup1{
+    position: fixed;
+    top: 25%;
+    width: 20%;
+}
+
+div#largeview{
+    position: fixed;
+    top: 100%;
+    left: 200px;
+}
