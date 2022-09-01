@@ -23,3 +23,4 @@ function onChange() {
     newtext = myinput.value;  
     otheritem.innerHTML = newtext;  
 }
+
