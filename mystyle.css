@@ -149,13 +149,14 @@ div.nav:hover div.dropdownitem a {
 
 @media screen and (orientation:landscape) {
     body{
-        margin:after;
+        background-color: lemonchiffon;
     }
 }
 
 @media screen and (orientation:portrait) {
     body {
-        border: rgb(14, 38, 250);
+        margin-left: 5%;
+
     }
 }
 
