@@ -126,20 +126,15 @@ div.nav:hover div.dropdownitem a {
     display: block;
 }
 
-img#bowl{
-    width: 20%;
-    top: 6%;
-    position: fixed;
-}
+
 
 div#movie {
     display: block;
 }
 
 img#minions{
-    position: fixed;
     top: 25%;
-    width: 20%;
+    width: 170px;
 }
 
 @media (max-width : 750px) {
